@@ -9,7 +9,7 @@ from email.message import EmailMessage
 
 name = input('Enter your name please: ')
 email = input('Enter your email address (gmail please): ')
-password = getpass.getpass()
+password = input('Please input Password: ')
 send_email_to = input('Enter email address to send to: ')
 alert_amount = input('Alert if Ethereum drops below: ')
 
